@@ -129,6 +129,7 @@ body{
     height: 110px;
     width: 197px;
     
+    position: relative;
 }
 .card__card-item {
     width: 85px;
@@ -288,7 +289,12 @@ body{
 
     color: #000000;
 }
-.box__text-check-2 {
+
+.box__text-check-none {
+    display: none;
+}
+
+.input__file {
     display: none;
 }
 
