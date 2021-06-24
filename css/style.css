@@ -295,7 +295,9 @@ body{
 }
 
 .input__file {
-    display: none;
+    /* display: none; */
+    opacity: 0;
+    z-index: -10;
 }
 
 @media (max-width:940px){
